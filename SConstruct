@@ -89,7 +89,7 @@ V8_EXTRA_FLAGS = {
   'gcc': {
     'all': {
       'CXXFLAGS':     [], #['-fvisibility=hidden'],
-      'WARNINGFLAGS': ['-pedantic', '-Wall', '-Werror', '-W',
+      'WARNINGFLAGS': ['-pedantic', '-Wall', '-W',
           '-Wno-unused-parameter']
     },
     'arch:arm': {
